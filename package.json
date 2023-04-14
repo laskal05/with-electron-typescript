@@ -2,6 +2,8 @@
   "private": true,
   "main": "main/index.js",
   "productName": "ElectronTypescriptNext",
+  "name": "sample",
+  "version": "0.0.1",
   "scripts": {
     "clean": "rimraf dist main renderer/out renderer/.next",
     "dev": "npm run build-electron && electron .",
@@ -28,7 +30,7 @@
     "@types/react": "^16.9.9",
     "@types/react-dom": "^16.9.9",
     "electron": "^24.1.1",
-    "electron-builder": "^23.6.0",
+    "electron-builder": "^24.2.1",
     "next": "latest",
     "rimraf": "^3.0.0",
     "typescript": "^5.0.4"
